@@ -2,12 +2,10 @@ p {
     font-size: 18px;
     font-weight: bold;
   }
-
 body {
   height: 200vh;
   background-color: rgb(92, 72, 129);
 }
-
 .contents{
     background-color: rgb(109, 129, 155);
 }
@@ -32,7 +30,6 @@ body {
     color: gold;
     font-size: 70px;
     margin: -20px auto;
- 
 }
 .triangle1{
     width: 0;
@@ -202,7 +199,6 @@ body {
       70vw -300px #fff,
       80vw -440px #fff,
       80vw -100px #fff;
- 
 }
 .wreit-square{
     background-color: peru;
@@ -213,8 +209,7 @@ body {
     left: 20%;
     transform: translate(-50%,-50%);
     display: flex;
-    justify-content: center;
-   
+    justify-content: center;  
 }
    button {
     width: 60px;
