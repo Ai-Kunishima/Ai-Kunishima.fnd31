@@ -4,12 +4,13 @@ p {
   }
 
 body {
-    background-color: rgb(57, 45, 80);
-  }
+  height: 200vh;
+  background-color: rgb(92, 72, 129);
+}
+
 .contents{
     background-color: rgb(109, 129, 155);
 }
- 
 .rounded-box{
     width: 200px;
     height: 50px;
@@ -21,7 +22,6 @@ body {
     margin-right: auto;
     margin-left: auto;  
 }
- 
 .tree {
     margin: 30px;
     text-align: center;
@@ -34,7 +34,6 @@ body {
     margin: -20px auto;
  
 }
- 
 .triangle1{
     width: 0;
     height: 0;
@@ -62,55 +61,6 @@ body {
     margin: -20px auto;
     animation: sparkle 1s infinite ease-in-out;
 }
-.circle1{
-    position: absolute;
-    content: '';
-    top: 50%;
-    left: 55%;
-    height: 20px;
-    width: 20px;
-    background-color: #ff2e2e;
-    border-radius: 50%;
-}
-.circle2{
-    position: absolute;
-    top: 190px;
-    left: 600px;
-    height: 20px;
-    width: 20px;
-    background-color: #fff352;
-    border-radius: 50%;
-}
-.circle3{
-    position: absolute;
-    content: '';
-    top: 240px;
-    left: 560px;
-    height: 20px;
-    width: 20px;
-    background-color: #0e0c9c;
-    border-radius: 50%;
-}
-.circle4{
-    position: absolute;
-    content: '';
-    top: 280px;
-    left: 605px;
-    height: 20px;
-    width: 20px;
-    background-color: #ff2e2e;
-    border-radius: 50%;
-}
-.circle5{
-    position: absolute;
-    content: '';
-    top: 300px;
-    left: 540px;
-    height: 20px;
-    width: 20px;
-    background-color: #fff352;
-    border-radius: 50%;
-}
 .brown-square{
     background-color: brown;
     width: 30px;
@@ -125,15 +75,65 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
- 
 #blsquare{
     background-color: blue;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
- 
- #rounded-box {
+.circle1{
+  position: absolute;
+  content: '';
+  top: 25%;
+  left: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: #ff2e2e;
+  border-radius: 50%;
+  justify-content: center;
+}
+.circle2{
+  position: absolute;
+  top: 30%;
+  left: 48%;
+  height: 20px;
+  width: 20px;
+  background-color: #fff352;
+  border-radius: 50%;
+  justify-content: center;
+}
+.circle3{
+  position: absolute;
+  content: '';
+  top: 40%;
+  left: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: #0c08c9;
+  border-radius: 50%;
+  justify-content: center;
+}
+.circle4{
+  position: absolute;
+  content: '';
+  top: 47%;
+  left: 48%;
+  height: 20px;
+  width: 20px;
+  background-color: #ff2e2e;
+  border-radius: 50%;
+}
+.circle5{
+  position: absolute;
+  content: '';
+  top: 51%;
+  left: 53%;
+  height: 20px;
+  width: 20px;
+  background-color: #fff352;
+  border-radius: 50%;
+}
+#rounded-box {
     width: 200px;
     height: 100px;
     border-radius: 10px;
@@ -150,7 +150,6 @@ body {
     background: #6b0d0d;
     opacity: 0.9;
   }
- 
   .snows2{
     width: 10px;
     height: 10px;
@@ -165,8 +164,6 @@ body {
       81vw -240px #fff,
       95vw 60px #fff;
   }
- 
- 
   .snow3{
     width: 10px;
     height: 10px;
@@ -191,7 +188,6 @@ body {
       94vw -430px #fff,
       94vw -230px #fff;
   }
- 
   .snows5{
     width: 18px;
     height: 18px;
@@ -208,7 +204,6 @@ body {
       80vw -100px #fff;
  
 }
- 
 .wreit-square{
     background-color: peru;
     width: 300px;
@@ -221,7 +216,7 @@ body {
     justify-content: center;
    
 }
-  button {
+   button {
     width: 60px;
     height: 40px;
     padding: 10px;
@@ -232,22 +227,36 @@ body {
     border: 1px solid rgb(9, 3, 3);
     color: rgb(4, 3, 3);
     margin: 0px;
+} 
+#animation-container{
+  position: static;
+  width: 10%;
+  height: 100%;
+  overflow: hidden;
 }
-  
+.emoji {
+  position: absolute;
+  top: -20px;
+  font-size: 50px; 
+  animation: fall 3s linear infinite;
+}
+@keyframes fall {
+  to {
+      transform: translateY(100vh);
+  }
+}
   #moya {
-    width: 320px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     padding: 75px 10px;
-    background: #e6e8ea;
-    filter: blur(15px);
+    background: rgb(92, 72, 129);
+    filter: blur(30px);
     border-radius: 30% 20% / 10% 40%;
     font-size: 25px;
     position: absolute;
-    top: -20px;
-    left: 37%;
-  }
-  
+    top: -70px;
+    left: 35%;
+  } 
   .hidden {
     display: none;
   }
- 
